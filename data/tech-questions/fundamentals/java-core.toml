@@ -240,7 +240,7 @@
 [[questions]]
   id = 40
   question = "Какие виды загрузчиков классов ты знаешь?"
-  answer = "- **Bootstrap ClassLoader**: Загружает стандартные библиотеки (например, `rt.jar`).\n- **Extension ClassLoader**: Загружает дополнительные библиотеки (`ext`).\n- **System ClassLoader**: Загружает классы из classpath.\n- **Custom ClassLoader**: Пользовательские загрузчики классов.\n\n"
+  answer = "- **Bootstrap ClassLoader**: Загружает стандартные библиотеки (например, `rt.jar`).\n- **Platform (до Java 9 - Extension) ClassLoader**: Загружает дополнительные библиотеки (`ext`).\n- **Application/System ClassLoader**: Загружает классы из classpath.\n- **Custom ClassLoader**: Пользовательские загрузчики классов.\n\n"
   popularity = 0.37
 
 [[questions]]
